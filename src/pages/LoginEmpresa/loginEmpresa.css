@@ -1,0 +1,96 @@
+.img_login_empresa{
+    width: 100%;
+}
+
+.empresa_container{
+    height: 1000px;
+    width: 100%;
+    background: radial-gradient(#653d84, #332042);
+    position: relative;
+}
+
+.empresa_box{
+    width: 1050px;
+    height: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+
+.empresa_box .left_empresa{
+    width: 41%;
+    height: 100%;
+    padding: 25px 25px;
+}
+
+.empresa_box .right_empresa{
+    width: 59%;
+    height: 100%;
+}
+
+.left_empresa .empresa_top_link a{
+    color: #452a5a;
+    font-weight: 400;
+}
+
+.left_empresa .empresa_top_link a:hover{
+    text-decoration: underline;
+}
+
+.left_empresa .empresa_top_link{
+    height: 20px;
+}
+
+.left_empresa .empresa_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+
+.left_empresa h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.left_empresa input{
+    border: none;
+    width: 80%;
+    margin: 15px 0;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.left_empresa{
+    background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+
+.btn_empresa_login{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    background: #545489;
+    color: #fff;
+    cursor: pointer;
+
+}

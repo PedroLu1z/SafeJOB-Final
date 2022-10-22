@@ -1,0 +1,110 @@
+.body_candidato{
+    background: #2D2F36;
+    height: 100vh;
+    display: flex;
+}
+
+h1,h2, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.user_avatar{
+    width: 484px;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.cartao_candidato{
+    width: 1100px;
+    background-color: #151B2670;
+    text-align: center;
+    height: 506px;
+    margin: auto auto;
+    display: flex;
+    
+}
+
+.infos_candidato{
+    width: 456px;
+    background: #101026;
+    height: 100%;
+    background-image: url(../../img/foto-perfil-candidato.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.infos_candidato > div {
+    margin-bottom: 2rem;
+}
+
+
+.info-candidato-page {
+    margin-top: 2rem;
+}
+
+
+.infos_candidato h1,h2{
+    color: #fff;
+}
+
+.infos_candidato h2{
+    font-size: 25px;
+}
+
+.texto_candidato {
+    width: 524px;
+    height: max-content;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-left: 62px;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.biografia{
+    width: 524px;
+    height: 50px;
+    margin: 20px 62px;
+    display: flex;
+    
+}
+
+.btn_enviar_proposta {
+    width: 200px;
+    height: 42px;
+    border: none;
+    border-radius: 7px;
+    background-color: #263EDA;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 230px;
+}
+
+.info-skills{
+    width: 524px;
+    height: 50px;
+    margin: 20px 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-skills span{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.info-skills .info_candidato{
+    color: #9B9B9B;
+}
+
+.info-skills .skills{
+    color: #fff;
+}
+
+

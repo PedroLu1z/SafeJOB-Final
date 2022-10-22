@@ -1,0 +1,85 @@
+.cont-criar-prova{
+    width: 700px;
+    background: #a0a0a0;
+    border-radius: 4px;
+    padding: 2rem;
+    margin: 2rem 0;
+    position: relative;
+    left: 25%;
+}
+
+.cont-criar-prova div{
+    margin: 1rem 0 ;
+}
+
+.cont-criar-prova  label{
+    font-size: 1.48rem;
+}
+
+.cont-criar-prova select{
+    padding: .2rem;
+    border: 2px solid black;
+    width: 60%;
+    height: 30px;
+}
+
+.cont-criar-prova option{
+    width: 100%;
+    font-size:25px ;
+}
+
+.big-cont-prova {
+    border-radius: 7px;
+    margin: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}  
+.big-cont-prova div div input{
+    height: 40px;
+    width: 70%;
+    padding: 0 .5rem;
+    font-size: 17px;
+    border-radius: 4px;
+    border-bottom: .5px solid black;
+}
+
+
+.btn__criar__prova{
+    position: relative;
+    left: 13.5%;
+    width: 70%;
+    margin: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.btn__criar__prova button {
+    margin: 2rem;
+    height: 30px;
+    width: 130px;
+    background-color: #4a28ea;
+    border-style: solid ;
+    border-radius: 7px;
+    border-color: #212121;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn__criar__prova button:hover{
+    color: #fff;
+}
+
+
+ /* Colocar "QUESTÃO" EM NEGRITO E TAM GRANDE
+    ARRUMAR BOTÃO PARA O MEIO E DESIGN
+    ESPAÇAR AS ALTERNATIVAS E CAMPOS 
+
+
+    
+  */
+ 

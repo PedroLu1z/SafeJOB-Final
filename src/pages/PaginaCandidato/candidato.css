@@ -1,0 +1,347 @@
+.main-container{
+    font-family: sans-serif;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container-principal{
+
+    width: 100vh;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+}
+
+.cartao {
+    background-color: red;
+    width: 30vw;
+    height: 55vh;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+}
+
+.container-vagas{
+    background-color: #101026;
+    width: 40vw;
+    height: 70vh;
+    margin-left: 1rem;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    
+}
+
+.cartao{
+    background-color: #070d12;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;   
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas img{
+    width: 35px;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas{
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoes-abas .descricao span{
+    color: #d3622f;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.redes-sociais li a{    
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}
+
+.redes-sociais .curriculo{
+    background-color: #b65a30;
+}
+
+.redes-sociais .linkedin{
+    background-color: #1d87bd;
+}
+
+.redes-sociais .github{
+    background-color: #101030;
+}
+
+.tipo-vagas h3{
+    color: #414141;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.vagas-disponiveis{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.logo_empresa{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.logo_empresa img{
+    width: 100px;
+    height: 80px;
+}
+
+.vagas-disponiveis{
+    margin: 0 1rem;
+}
+
+.vagas-disponiveis h2{
+    font-size: 22px;
+}
+
+.nomeEmpresa{
+    font-size: 20px;
+}
+
+.enderecoEmpresa{
+    color: #414141;
+    font-style: italic;
+}
+
+.tipoVaga{
+    color: #fff;
+}
+
+.titulo-vagas:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .body_candidato{
+    background: #2D2F36;
+    height: 100vh;
+    display: flex;
+}
+
+h1,h2, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.user_avatar{
+    width: 484px;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.cartao_candidato{
+    width: 1100px;
+    background-color: #151B2670;
+    text-align: center;
+    height: 506px;
+    margin: auto auto;
+    display: flex;
+    
+}
+
+.infos_candidato{
+    width: 456px;
+    background: #101026;
+    height: 100%;
+    background-image: url(../../img/foto-perfil-candidato.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.infos_candidato > div {
+    margin-bottom: 2rem;
+}
+
+
+.info-candidato-page {
+    margin-top: 2rem;
+}
+
+
+.infos_candidato h1,h2{
+    color: #fff;
+}
+
+.infos_candidato h2{
+    font-size: 25px;
+}
+
+.texto_candidato {
+    width: 524px;
+    height: max-content;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-left: 62px;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.biografia{
+    width: 524px;
+    height: 50px;
+    margin: 20px 62px;
+    display: flex;
+}
+
+.info-skills{
+    width: 524px;
+    height: 50px;
+    margin: 20px 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-skills span{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.info-skills .info_candidato{
+    color: #9B9B9B;
+}
+
+.info-skills .skills{
+    color: #fff;
+}
+
+
+.contato-canditato{
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.contato-canditato a{
+    margin-left: 1rem;
+} */

@@ -1,0 +1,96 @@
+.form-criar-curriculo {
+    background-color: #0c0c22;
+    color: #fff;
+    width: 50vw;
+    padding: 2rem;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.3);
+}
+
+.infos-candidato {
+    /* background-color: red; */
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infos-candidato div {
+    margin: 1rem 0.8rem;
+}
+
+
+.infos-candidato div input {
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #303245;
+    padding: 0.5rem;
+    width: 100%;
+    color:#fff;
+    font-size: 18px;
+}
+
+.exp-form-candidato {
+    /* background-color: green; */
+    margin: 2rem 0;
+}
+
+.container_botao {
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.exp-form-candidato{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.exp-form-candidato div input{
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #303245;
+    padding: 0.5rem;
+    width: 100%;
+    color: #fff;
+}
+
+.exp-form-candidato div{
+    margin: 1rem 0.8rem;
+}
+
+.container_botao button{
+    background: #595984;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    height: 75%;
+}
+
+.infos-candidato textarea{
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #303245;
+    padding: 0.5rem;
+    width: 100%;
+    color:#fff;
+    font-size: 18px;
+    resize:none;
+}
+
+
+

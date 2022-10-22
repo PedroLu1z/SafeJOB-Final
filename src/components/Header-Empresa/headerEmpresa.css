@@ -1,0 +1,49 @@
+/* .header-empresa{
+    background: #151b26;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.logo-safejob{
+    font-size: 30px;
+    color: #fff;
+}
+
+.logo-safejob span{
+    color: #462362;
+}
+
+.header-empresa .left-side-empresa{
+    flex:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.left-side-empresa .links-empresa{
+    max-height: 80px;
+}
+
+.left-side-empresa .links-empresa a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+    padding: 5px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.left-side-empresa .links-empresa a:hover{
+    background-color: #263eda;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.header-empresa .right-side-empresa{
+    flex: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+} */

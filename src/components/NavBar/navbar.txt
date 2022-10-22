@@ -1,0 +1,32 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
+import { Search, Menu } from 'react-feather'
+import './navbar.css'
+
+function Navbar(){
+    return(
+        <header className='top_header'>
+            <nav>
+                <h1>SafeJOB</h1>
+                <Menu class='hambuger active'/>
+                <ul className='menubar active'>
+                    <form action="" method='GET'>
+                        <input type="text" placeholder='Busque uma vaga...' />
+                        <Search id='search-icon'/>
+                    </form>
+
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>Sobre</Link></li>
+                    <div id="hr-header">
+                        <div className="login">
+                            <li id='btn-candidato'><Link to='/user-login'>Iniciar Sessão</Link></li>
+                            <li id='btn-candidato'><Link to='/empresa-login'>Sou uma Empresa</Link></li>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    )
+}
+
+export default Navbar;

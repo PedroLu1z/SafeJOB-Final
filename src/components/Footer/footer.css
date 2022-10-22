@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: relative; 
+    bottom: 0px;
+    width: 100%;
+    background: #151b26;
+    color: #fff;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content-footer{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content-footer::after{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background: #595984;
+    top:-10px;
+}
+
+.box .content-footer::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #151b26;
+    top: -10px;
+}
+
+.left .content-footer .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content-footer .social a{
+    padding: 0 2px;
+}
+
+.left .content-footer .social a span{
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.left .content-footer .social a span:hover{
+    text-decoration: none;
+    background: #595984;
+}
+
+.left .content-footer p{
+    text-align: justify;
+}
+
+.center .content-footer .fas{
+    font-size: 23px;
+    background: #1a1a1a;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.center .content-footer .fas:hover{
+    text-decoration: none;
+    background: #595984;
+}
+
+.center .content-footer .text{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;   
+}
+
+.center .content-footer .phone{
+    margin: 10px 0 ;
+}
+
+.center .content-footer .msg{
+    margin-top: 10px ;
+}
+
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 17px;
+    background: #151b26;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+.right form input{
+    height: 35px;
+}
+
+.right form input:focus, .right form textarea:focus{
+    outline-color:#b8ebf4;
+}
+
+.right form .text{
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #656565;
+
+}
+
+.right form .btn{
+    margin-top: 10px;
+}
+
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.right form .btn button:hover{
+    transition: all 0.5s;
+    background: #595984;
+}
+
+.bottom .center{
+    padding: 5px;
+    font-size: 15px;
+    background: #151b26;  
+    text-align: center; 
+}
+
+.bottom .center span{
+    color: #595984;
+    
+}
+
+.bottom .center a{
+    color: #b8ebf4;
+    text-decoration: none;
+}
+
+.bottom .center a:hover{
+    text-decoration: underline;
+}
+
+@media screen and(max-width: 900px){
+    footer{
+        bottom: 0px;
+    }
+
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main-content .box{
+        margin: 5px 0;
+    }
+}

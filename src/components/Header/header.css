@@ -1,0 +1,117 @@
+.logo_perfil{
+    width: 80px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.main-content_header{
+    background: #151b26;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.logo_header{
+    font-size:30px ;
+    color: #fff;
+}
+
+.logo_header span{
+    color: #462362;
+}
+
+.main-content_header .leftSide-header{
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.leftSide-header .nav-links-header{
+    max-height: 80px;
+}
+
+.leftSide-header .nav-links-header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+    padding: 5px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.nav-links-header a img {
+    width: 50px;
+    border-radius: 100px;
+}
+
+
+.leftSide-header .nav-links-header a:hover{
+    background-color: #263EDA;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.leftSide-header .search-header {
+    margin: 10px;
+    display: flex;
+}
+
+.leftSide-header .search-header input{
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.leftSide-header .search-header input:hover{
+    border:2px solid #00ffff;
+}
+
+.leftSide-header  .btn_search{
+    margin-left: 7px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    font-size:20px;
+}
+
+.leftSide-header .btn_search:hover{
+    background: #263EDA;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.main-content_header .rightSide{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.logo-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.logout-header{
+    padding: 5px;
+    background:transparent;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size:25px;
+}
+
+.logout-header:hover{
+    background: #263EDA;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}

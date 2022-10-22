@@ -1,0 +1,70 @@
+.main_container {
+    /* background-color: red; */
+}
+
+.titulo-vaga{
+    background-color: #a0a0a0;
+    width: 300px;
+    margin: 2rem;
+    padding: 0.2rem;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.container_vaga {
+    background-color: #a0a0a0;
+    border-radius: 8px;
+    width: 500px;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+.vaga-cadastrada hr{
+    margin:1rem;
+}
+
+.vaga-cadastrada header {
+    /* background-color: blue; */
+}
+
+.img-empresa-vaga img {
+    width: 100px;
+    height: 90px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.info-header-vaga {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.info-header-vaga h2 {
+    font-size: 25px;
+    color: black;
+}
+.info-header-vaga div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-vaga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom:20px;
+}
+.info-vaga div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+

@@ -1,0 +1,268 @@
+.main_content_vaga{
+    background: #2D2F36;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+}
+
+.conteudo_vaga{
+    position: relative;
+    width: 100%;
+    margin: 45px;
+}
+.left-side_vaga{
+    background: #101026;
+    width: 75%;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+.main_content_vaga .titulo_vaga{
+    color: rgba(255, 255, 255, 0.799);
+    margin-bottom: 30px;
+}
+
+.sub-titulo_vaga{
+    color: rgba(255, 255, 255, 0.475);
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.btn_candidatar_vaga button{
+    border-radius:7px ;
+    padding: 10px;
+    border: none;
+    background-color: #263EDA;
+
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.btn_candidatar_vaga button:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.descricao_vaga{
+    font-size: 18px;
+    margin-bottom: 45px;
+    color: rgba(255, 255, 255, 0.644);
+    margin-left: 20px;
+}
+
+.nome_empresa{
+    text-align: justify;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.nome_empresa .empresa_titulo{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.732);
+}
+
+.nome_empresa .empresa_contratante a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.empresa_contratante a:hover{
+    text-decoration:underline;
+}
+
+.requisitos_vaga{
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 22px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.requisitos_vaga h3{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.requisitos_vaga p{
+    margin-bottom: 10px;
+}
+
+.tecnologias_vaga{
+    margin: 12px;
+}
+
+.tecnologias_vaga .requisito1{
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+.requisito1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+
+.tecnologias_vaga .requisito2{
+    border: none;
+    margin-right: 20px;
+    background: transparent;
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+}
+
+.requisito2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+
+.right-side_vaga{
+    flex-wrap: wrap;
+}
+
+.box_right_vaga{
+    top: 0%;
+    right: 0;
+    
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-right: 17px;
+    border-radius: 7px;
+}
+
+.right-side_vaga .box_right_vaga{
+    float: right;
+    width: 400px;
+    height: 600px;
+    background-color: hsla(219, 29%, 12%, 0.671);
+}
+
+.box_right_vaga .titulo_right_vaga{
+    color: rgba(255, 255, 255, 0.862);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.box_right_vaga .sub-titulo_right_vaga{
+    justify-content: left;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 13.7px;
+    margin-bottom: 20px;
+    margin-left: 17px;
+}
+.box_right_vaga .right_tecnologias_vagas-line2{
+    margin-left: 12%;
+    padding: 7%;
+}
+
+.box_right_vaga .right_tecnologias_vagas-line1{
+    margin-left: 12%;
+    padding: 7%;
+}
+
+.right_tecnologias_vagas-line1 .right-requisito1{
+    margin-right: 30%;
+}
+
+.right_tecnologias_vagas-line2 .right-requisito3{
+    margin-right: 30%;
+}
+
+.right-requisito1{
+    color: #fff;
+    padding: 5px;
+    border: none;
+    background:transparent;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.right-requisito1:hover{
+    background-color: #263EDA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-requisito2{
+    color: #fff;
+    padding: 5px;
+    border: none;
+    background:transparent;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.right-requisito2:hover{
+    background-color: #263EDA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-requisito3{
+    color: #fff;
+    padding: 5px;
+    border: none;
+    background:transparent;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.right-requisito3:hover{
+    background-color: #263EDA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-requisito4{
+    color: #fff;
+    padding: 5px;
+    border: none;
+    background:transparent;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.right-requisito4:hover{
+    background-color: #263EDA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right_candidatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.right_candidatar button{
+    border: none;
+    background-color: #263EDA;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.right_candidatar button:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.left-side_vaga .titulo_vaga h1{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+

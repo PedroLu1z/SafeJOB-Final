@@ -1,0 +1,29 @@
+.container_principal_sobre{
+    background: linear-gradient(45deg, #fec4f4, #b8ebf4);
+    height: 100vh;
+    position: relative;
+}
+
+.conteudo_sobre{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 70px;
+    color: #151b26;
+    position: relative;
+    text-align: justify;
+}
+
+.conteudo_sobre .chamariz_sobre{
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.conteudo_sobre .descricao_sobre{
+    padding: 20px;
+    padding-bottom:20px ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}

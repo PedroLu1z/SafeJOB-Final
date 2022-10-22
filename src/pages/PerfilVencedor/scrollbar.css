@@ -1,0 +1,19 @@
+/* =============== Estilizando o scroll ===============*/
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #263EDA #070d12;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #070d12;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #263EDA;
+    border-radius: 20px;
+    border: 3px solid #070d12;
+}
